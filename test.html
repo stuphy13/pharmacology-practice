@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pharmacology Practice Exam</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- 🏠 HOME PAGE -->
+  <div id="home">
+    <h1>Babdoo!!!</h1>
+    <h2>Pharma Practice </h2>
+    <ul id="testList"></ul>
+    <a href="#" id="viewResultsLink">View Past Results</a>
+  </div>
+
+  <!-- 🧪 TEST PAGE -->
+  <div id="testScreen" class="hidden">
+    <h2 id="testTitle"></h2>
+    <div id="timer">Time Remaining: <span id="timeRemaining"></span></div>
+    <div id="questionContainer">
+      <div id="questionText"></div>
+      <div id="options"></div>
+      <div class="navButtons">
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+        <button id="submitBtn">Submit</button>
+      </div>
+    </div>
+  </div>
+  <!-- 📊 RESULT PAGE -->
+  <div id="resultScreen" class="hidden">
+    <h2>Results for <span id="resultTestTitle"></span></h2>
+    <p>Your Score: <span id="score"></span> / <span id="total"></span></p>
+    <div id="reviewContainer"></div>
+    <button id="backHomeBtn">Back to Home</button>
+  </div>
+
+  <!-- 📁 PAST RESULTS PAGE -->
+  <div id="resultsPage" class="hidden">
+    <h2>Past Results</h2>
+    <ul id="historyList"></ul>
+    <button id="backFromResults">Back to Home</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

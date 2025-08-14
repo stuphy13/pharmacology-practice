@@ -1,0 +1,142 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #b3cfec;
+  color: #212020;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0078d4;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* ---------- HOME SCREEN ---------- */
+#home {
+  padding: 30px;
+  text-align: center;
+}
+
+#testList {
+  list-style: none;
+  padding: 0;
+}
+
+#testList li {
+  margin: 10px 0;
+  align-items: left;
+}
+
+#viewResultsLink {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: #0078d4;
+  cursor: pointer;
+}
+
+/* ---------- TEST SCREEN ---------- */
+#testScreen {
+  padding: 30px;
+}
+
+#testTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#timeRemaining {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#questionText {
+    
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#options label {
+  display: block;
+  margin: 6px 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#navigation {
+  margin-top: 20px;
+}
+
+/* ---------- MODAL ---------- */
+
+
+/* ---------- RESULT SCREEN ---------- */
+#resultScreen {
+  padding: 30px;
+}
+
+#resultTestTitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#scoreSummary {
+  margin-bottom: 20px;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+#reviewContainer {
+  margin-top: 20px;
+}
+
+#reviewContainer div {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* ---------- RESULTS PAGE ---------- */
+#resultsPage {
+  padding: 30px;
+}
+
+#historyList {
+  list-style: none;
+  padding: 0;
+}
+
+#historyList li {
+  margin: 10px 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
